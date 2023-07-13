@@ -1,0 +1,71 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+img {
+  padding: 0px 0px 10px 0px;
+}
+
+.container-sm {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.navbar {
+  background-color: goldenrod;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #525b76;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  display: block;
+  margin: 15px 0px;
+  width: 450px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-color: #525b76;
+  box-shadow: 2px 2px 1px #869d96;
+  padding: 5px;
+}
+
+textarea {
+  height: 150px;
+  padding: 7px 6px;
+}
+
+#maintekst {
+  display: none;
+}
+
+.footer {
+  min-height: 200px;
+  background-color: goldenrod;
+}
